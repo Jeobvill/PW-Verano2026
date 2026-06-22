@@ -7,24 +7,16 @@
 🆔 Número de Control: 23400636
 _____________________________________________________
 💻 Intereses
-  -Inteligencia Artificial
-
+  <-Inteligencia Artificial/>
   -Desarrollo Frontend
-
   -Desarrollo Backend
-  
   -Desarrollo Movil
 _____________________________________________________
 🛠 Tecnologías que conozco
-  
   -Java
-  
   -Python
-  
   -MySQL
-  
   -SQLServer
-  
   -Git y GitHub
 _____________________________________________________
 📫 Cómo contactarme
