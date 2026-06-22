@@ -7,7 +7,7 @@
 🆔 Número de Control: 23400636
 _____________________________________________________
 💻 Intereses
-  <-Inteligencia Artificial/>
+  <-Inteligencia Artificial />
   -Desarrollo Frontend
   -Desarrollo Backend
   -Desarrollo Movil
