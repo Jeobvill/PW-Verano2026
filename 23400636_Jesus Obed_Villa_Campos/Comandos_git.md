@@ -53,37 +53,37 @@ Ejemplo: git commit -m "feat: se agrega el boton de inicio de sesion"
   Ejemplo: git fetch origin    
 
 14- git branch  
-  Sirve para listar, crear o eliminar ramas(brancjes) en tu repositorio.
-  Las ramas permiten trabajar en funciones nuevas sin romper el codigo principal
-  Ejemplo: git branch nueva.funcion
+  Sirve para listar, crear o eliminar ramas(brancjes) en tu repositorio.  
+  Las ramas permiten trabajar en funciones nuevas sin romper el codigo principal  
+  Ejemplo: git branch nueva.funcion  
           git branch
   
 15- git blame  
-  Muestra quien modifico cada linea de un archivo, en que fecha y con que commit.
-  Es ideal para saber a quien preguntarle sobre una parte especifica del codigo.
-  Ejemplo: git blame config.js
+  Muestra quien modifico cada linea de un archivo, en que fecha y con que commit.  
+  Es ideal para saber a quien preguntarle sobre una parte especifica del codigo.  
+  Ejemplo: git blame config.js  
   
 16- git merge  
-  Fusiona los cambios de una rama secundaria dentro de la rama en la que estas parado actualmente
-  Ejemplo: git merge nueva-funcion
+  Fusiona los cambios de una rama secundaria dentro de la rama en la que estas parado actualmente  
+  Ejemplo: git merge nueva-funcion  
   
 17- git rebase  
-  Reorganización de ramas. Replica los cambios de la rama-2 en la rama-1 partiendo del ancestro
-  en común de ambas ramas.El resultado es el mismo que la fusión de las dos ramas pero la
-  bifurcacion de la rama-2 desaparece ya que sus commmits pasan a estar en la rama-1
-  Ejemplo: git rebase <rama-1> <rama-2>
+  Reorganización de ramas. Replica los cambios de la rama-2 en la rama-1 partiendo del ancestro  
+  en común de ambas ramas.El resultado es el mismo que la fusión de las dos ramas pero la  
+  bifurcacion de la rama-2 desaparece ya que sus commmits pasan a estar en la rama-1  
+  Ejemplo: git rebase <rama-1> <rama-2>  
   
 18- git remote  
-  Administra las conexiones con repositorios remotos. sirve para enlazar tu repositorio local
-  con plataformas en la nube.
-  Ejemplo: git remote add origin https://github.com/usuario/mi-repo.git
+  Administra las conexiones con repositorios remotos. sirve para enlazar tu repositorio local  
+  con plataformas en la nube.  
+  Ejemplo: git remote add origin https://github.com/usuario/mi-repo.git  
   
 19- git pull  
-  Trae los ultimos cambios desde el repositorio remoto y los fusiona directamente en tu 
-  rama local actual (básicamente un fetch + merge).
-  Ejemplo: git pull orogin main
+  Trae los ultimos cambios desde el repositorio remoto y los fusiona directamente en tu   
+  rama local actual (básicamente un fetch + merge).  
+  Ejemplo: git pull orogin main  
   
 20- git push  
-  Envia tus commits locales al repositorio remoto para que otros puedan verlos o para 
-  tener un respaldo en la nube.
-  Ejemplo: git push origin main
+  Envia tus commits locales al repositorio remoto para que otros puedan verlos o para   
+  tener un respaldo en la nube.  
+  Ejemplo: git push origin main  
