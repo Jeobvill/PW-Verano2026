@@ -3,6 +3,81 @@
     <head>
         <meta charset="UFT-8">
         <title> Estructura base </title>
+        <style>
+            body{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background: lightgreen;
+                color: black;
+                margin: 15px;
+                padding:  20px;
+            }
+            div, form,table{
+                background: white;
+                padding: 20px;
+                margin-left: 15px;
+                border-radius: 5px;
+            }
+            h1,h2,h3,h4,h5,h6{
+                color: blueviolet;
+            }
+            
+            img{
+                width: 360px;
+                border-radius: 8px;
+                padding: 15px;
+                margin: auto;
+            }
+            ol,ul{
+                padding-left: 10%;
+                margin: 10px;
+            }
+            table{
+                width: 100%;
+                columns: center;
+                border-collapse: collapse;
+            }
+            th{
+                color: blueviolet;
+                background-color: lightblue;
+                padding-left: 15px;
+            }
+            a{
+                color: crimson;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-decoration: none;
+            }
+            fieldset{
+                border: 2px solid blue;
+                border-radius: 15px;
+            }
+            legend{
+                font-weight: bold;
+                padding: 5px;
+                color: blueviolet;
+            }
+            input,select,textarea{
+                margin-top: 5px;
+                padding: 8px;
+                border: 1px solid lightcoral;
+                border-radius: 15px;
+            }
+            input[type="submit"]{
+                background: green;
+                color: blueviolet;
+                border: none;
+                cursor:pointer
+            }
+            input[type="reset"]{
+                background: green;
+                color: blueviolet;
+                border: none;
+                cursor:pointer
+            }
+            .boton{
+                color: blueviolet;
+                background-color: blueviolet;
+            }
+        </style>
     </head>
     <body>
         <h1 id="Encabezado" style="color: oklch(62.67% 0.21036 142.283); text-align: left; height: 100px; background-color: black; width: 1990px;"> HOLA MUNDO-Encabezado H1</h1>
@@ -38,7 +113,7 @@
             <hr>
             <h3> TABLA </h3>
             <table border="1">
-                <tr aria-colspan="3">Tabla de alumno</tr>
+                <tr colspan="3">Tabla de alumno</tr>
                 <tr>
                     <th>nombre</th>
                     <th>Edad</th>
@@ -106,6 +181,9 @@
                 <label>archivo</label>
                 <input type="file">
                 <br><br>
+                <!--botones-->
+                <input type="reset" value="Limpiar"><br><br>
+                <input type="submit" value="Enviar">
             </fieldset>
         </form>
     </body>
