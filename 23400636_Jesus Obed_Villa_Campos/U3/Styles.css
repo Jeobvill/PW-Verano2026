@@ -1,0 +1,100 @@
+body{
+    background-color: whitesmoke;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: center;
+    font-family: sans-serif;
+}
+/*encabezados*/
+h1,h2{
+    border-bottom: 8px;
+    border-top: 10px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #00A896;
+}
+
+/*parrafo*/
+p{
+    color: #028090;
+    text-align: center;
+}
+/*imagenes*/
+img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #028090;
+    border: solid;
+    border-color: #028090;
+    border-radius: 15px;
+}
+/*Tablas*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.paquetes-tabla{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+}
+.paquetes-tabla{
+   border: 2px dotted #008080; 
+    padding: 12px 15px;
+    text-align: left;
+    background-color: #F4A261; 
+    color:#028090;
+}
+.tabla-punteada th, 
+.tabla-punteada td {
+    border: 2px dotted #008080; 
+    padding: 12px 15px;
+    text-align: left;
+    background-color: #F4A261;
+    
+}
+form{
+    background-color: #00A896;
+    border-radius: 15px;
+}
+input{
+    background-color: #00A896;
+}
+input[type="checkbox"]{
+    background-color: #00A896;
+}
+/*listas*/
+ol,ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #028090;
+    background-color: #F4A261
+}
+li{
+    text-align: justify;
+    padding: 3px;
+}
+/*enlaces*/
+a{
+    color: #ff3300;
+}
+.enlaces{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    
+}
+.tabla-punteada{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+}
