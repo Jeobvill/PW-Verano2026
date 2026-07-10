@@ -1,0 +1,128 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 25px 25px 0 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+} 
+.ha{
+    font-size: 14px;
+    padding: 0;
+}
+
+.Acceder{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 9px 23px;
+    font-size: 14px;
+    background-color: blue;
+
+}
+
+main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    gap: 15px;
+    width: 0 10px 0px 10px;
+}
+.logo{
+    font-size: 90px;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 45px;
+
+}
+.g{color: #4285F4}
+.o{color: red}
+.o2{color: yellow}
+.g2{color: #4285F4;}
+.l{color: green;}
+.e{color: #EA4335;}
+/* barras de busqueda*/
+
+.busqueda{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+
+}
+
+input[type="text"]{
+    width: 500px;
+    max-width: 90%;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0 2px 5px darkslategrey;
+    padding: 14px 20px;
+}
+.botonInferior{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+}
+input[type="Button"]{
+    margin: 0 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 18px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+
+footer{
+    background-color: lightgray;
+    width: 100%;
+}
+.derecha,.izquierda{
+    display: flex;
+    margin: 0;
+    gap: 5px;
+}
+a{
+    font-size: 14px;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.pais{
+    padding: 15px;
+    font-size: 14px;
+    border-bottom: 1px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    flex-wrap: nowrap;
+}
+h5{
+    padding: 15px;
+    border-bottom: 1px;
+    font-size: 14px;
+}
