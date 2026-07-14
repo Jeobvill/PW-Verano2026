@@ -1,0 +1,138 @@
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+html section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header{
+    background-image: url(assets/main-hero-background.png);
+}
+header .Dimg1{
+    margin-bottom: 10px;
+}
+header .img1{ 
+    width: 100px;
+    gap:80px; 
+} 
+.botonIni{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.botonIni input{
+    background-color: darkslategrey;
+    border-color: antiquewhite;
+    color: white;
+    border-radius: 3px;
+    margin: 10px;
+    font-size: medium;
+    border-style:inset;
+}
+header h1{
+    color: white;
+    margin-top: 2px;
+}
+header img{
+    width: 80px;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 15px;
+}
+.email input[type="email"]{
+    padding-right: 90px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+    font-size: medium;
+}
+.email input[type="submit"]{
+    background-color: aqua;
+    border: none;
+    border-radius: 0px 3px 3px 0;
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header span{
+    color: white;
+    
+}
+header p{
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+}
+header a{
+    color: white;
+    padding-left: 15px;
+}
+.ima2{
+    gap: 1px;
+    flex: 1;
+}
+/*segunda pantalla*/
+main{
+    display: flex;
+    flex-direction: column;
+   
+}
+main .SeccionExclusivo{
+    display: flex;
+    flex-direction: column; 
+     background-color: #000;
+    color: white;  
+}
+.SeccionExclusivo h2{
+    font-size: x-large;
+}
+.SeccionExclusivo span{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%  ;
+}
+.SeccionExclusivo span img{
+    width: 80%;
+}
+/*seccion favs*/
+label{
+    color: white;
+}
+.MasPopular{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #000;
+}
+.MasPopular span{
+    margin: 10px;
+    width: 100%;
+}
+.MasPopular img{
+    width: 100%;
+}
+/* plan a elegir */
+.Plan{
+    background-color: #142864;
+    color: white;
+}
+.Plan h1{
+    justify-content: center;
+    text-align: center;
+}
+.Plan table{
+    justify-content: center;
+
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #2b1c50;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.logo {
+    height: 32px;
+    width: auto;
+}
+
+.nave a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.nave {
+    margin-left: auto;
+    font-size: large;
+}
+
+.Open {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* main */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.texto {
+    max-width: 400px;
+}
+
+.texto h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.texto p {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.imagenP {
+    width: 360px;
+}
+
+.botones {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-morado {
+    background-color: #5865f2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* seccion 2 */
+.seccion2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px;
+    background: linear-gradient(135deg, #4b3ba0, #d6398f);
+    border-radius: 30px;
+}
+
+.marco-imagen {
+    border-radius: 30px;
+    padding: 40px;
+    width: 500px;
+}
+
+.imagen-chat {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.texto2 {
+    max-width: 550px;
+}
+
+.texto2 h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.texto2 p {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* seccionesn */
+.seccion3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 60px;
+    gap: 60px;
+    background: linear-gradient(135deg, #3b3f9e, #5a4fd6);
+    border-radius: 30px;
+}
+
+.seccion4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 60px;
+    gap: 60px;
+    flex-direction: row-reverse;
+    background: linear-gradient(135deg, #4b3ba0, #d6398f);
+    border-radius: 30px;
+}
+
+.seccion5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 60px;
+    gap: 60px;
+    background: #1a2b6b;
+    border-radius: 30px;
+}
+
+.frame-azul {
+    
+    border-radius: 30px;
+    padding: 40px;
+    width: 500px;
+}
+
+.frame-rosa {
+    
+    border-radius: 30px;
+    padding: 40px;
+    width: 500px;
+}
+
+.frame-verde {
+    
+    border: 8px solid #1e8a4c;
+    border-radius: 30px;
+    padding: 20px;
+    width: 500px;
+}
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px;
+}
+ 
+.footer-izq {
+    max-width: 250px;
+}
+ 
+.footer-label {
+    color: #b9bbf7;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ 
+.idioma {
+    background-color: #4b4bb0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 100%;
+}
+ 
+.redes {
+    display: flex;
+    gap: 15px;
+}
+ 
+.redes a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.footer-titulo {
+    color: #b9bbf7;
+    margin-bottom: 15px;
+}
+ 
+.footer-col a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
