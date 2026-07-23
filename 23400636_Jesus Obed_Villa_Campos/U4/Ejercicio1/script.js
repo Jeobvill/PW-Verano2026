@@ -36,7 +36,7 @@ function tablaDeMultiplicar(){
         console.log(`${numTab} x ${i} = ${numTab*i}`);
     }
 }
-tablaDeMultiplicar();
+//tablaDeMultiplicar();
 
 // numero par o inpar
 function paresOinpares() {
